@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+.mensajes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-height: 100vh;
+}
+.titulo-uno {
+    width: 100%;
+    height: 100px;
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 400px;
+    background-color: rgb(204, 204, 204);
+}
+.titulo {
+    width: 100%;
+    height: 130px;
+}
+.titulo h1 {
+    font-size: 3rem;
+    color: blue;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.formEntrada {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:300px;
+}
+input {
+    width: 340px;
+    border-radius: 1px;
+}
+.input-correo {
+    width: 320px;
+    height: 30px;
+    border-radius: 1px;
+}
+.contenedor-btn {
+    margin-top: 10px;
+    width: 325px;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.tabla {
+    width: 350px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+.tablaUno {
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+.tablaUno th {
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+.tablaUno td{
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+th {
+    color: white;
+}
+td {
+    color: white;
+}
+.contenedor_tabla {
+    min-width: 375px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+.mensajes-socket {
+    width: 375px;
+    min-height: 100px;
+    margin: 10px;
+}

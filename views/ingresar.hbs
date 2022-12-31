@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{!-- head --}}
+{{> head }}
+
+<body>
+
+    <div class="contenedor">
+        {{!-- Ingreso de productos --}}
+        {{> ingresarProducto }}
+        {{> verProductos }}
+    </div>
+    <div class="mensajes">
+        <div class="tarjeta">
+            <div class="titulo-uno"><h1>Centro de mensajes</h1>
+            <input class="input-correo" type="text" placeholder="correo" id="correo"></div>
+            <hr>
+            <div class="mensajes-socket" id="msn">
+
+            </div>
+            <div class="enviar-mensaje">
+                <input type="text" id="letras" placeholder="mensaje">
+                <button class="btn btn-dark" id="enviarMsn">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    {{!-- Footer --}}
+    {{> footer }}
+
+</body>
+
+</html>
